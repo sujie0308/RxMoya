@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C4BE0B4F8EA6E99C8AF536 /* Pods_RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388539EB79D6A759D85A4B08 /* Pods_RxMoya.framework */; };
 		7E0AAB2A1EFFFFB20004DFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB291EFFFFB20004DFED /* AppDelegate.swift */; };
 		7E0AAB2C1EFFFFB20004DFED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */; };
 		7E0AAB2F1EFFFFB20004DFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB2D1EFFFFB20004DFED /* Main.storyboard */; };
 		7E0AAB311EFFFFB20004DFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB301EFFFFB20004DFED /* Assets.xcassets */; };
 		7E0AAB341EFFFFB30004DFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB321EFFFFB30004DFED /* LaunchScreen.storyboard */; };
+		7E0AAB411F0000BE0004DFED /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */; };
+		7E0AAB431F0000C90004DFED /* HomeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB421F0000C90004DFED /* HomeApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		388539EB79D6A759D85A4B08 /* Pods_RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0AAB261EFFFFB20004DFED /* RxMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0AAB291EFFFFB20004DFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		7E0AAB2E1EFFFFB20004DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E0AAB301EFFFFB20004DFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0AAB331EFFFFB30004DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0AAB351EFFFFB30004DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		7E0AAB421F0000C90004DFED /* HomeApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeApiService.swift; sourceTree = "<group>"; };
+		BAF4AFDC3C8E14AD7A1018E8 /* Pods-RxMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.debug.xcconfig"; sourceTree = "<group>"; };
+		D99D9873E39EC305244EEADB /* Pods-RxMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C4BE0B4F8EA6E99C8AF536 /* Pods_RxMoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06412864F55A4CB5264CC3D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388539EB79D6A759D85A4B08 /* Pods_RxMoya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E0AAB1D1EFFFFB20004DFED = {
 			isa = PBXGroup;
 			children = (
 				7E0AAB281EFFFFB20004DFED /* RxMoya */,
 				7E0AAB271EFFFFB20004DFED /* Products */,
+				806E42AFE2AD5DE5A91AE786 /* Pods */,
+				06412864F55A4CB5264CC3D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,65 @@
 		7E0AAB281EFFFFB20004DFED /* RxMoya */ = {
 			isa = PBXGroup;
 			children = (
+				7E0AAB3B1F0000AF0004DFED /* RxMoya */,
 				7E0AAB291EFFFFB20004DFED /* AppDelegate.swift */,
-				7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */,
 				7E0AAB2D1EFFFFB20004DFED /* Main.storyboard */,
 				7E0AAB301EFFFFB20004DFED /* Assets.xcassets */,
 				7E0AAB321EFFFFB30004DFED /* LaunchScreen.storyboard */,
 				7E0AAB351EFFFFB30004DFED /* Info.plist */,
 			);
 			path = RxMoya;
+			sourceTree = "<group>";
+		};
+		7E0AAB3B1F0000AF0004DFED /* RxMoya */ = {
+			isa = PBXGroup;
+			children = (
+				7E0AAB3C1F0000AF0004DFED /* Model */,
+				7E0AAB3D1F0000AF0004DFED /* View */,
+				7E0AAB3E1F0000AF0004DFED /* ViewController */,
+				7E0AAB3F1F0000AF0004DFED /* ViewModel */,
+			);
+			path = RxMoya;
+			sourceTree = "<group>";
+		};
+		7E0AAB3C1F0000AF0004DFED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E0AAB421F0000C90004DFED /* HomeApiService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E0AAB3D1F0000AF0004DFED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E0AAB3E1F0000AF0004DFED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7E0AAB3F1F0000AF0004DFED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		806E42AFE2AD5DE5A91AE786 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAF4AFDC3C8E14AD7A1018E8 /* Pods-RxMoya.debug.xcconfig */,
+				D99D9873E39EC305244EEADB /* Pods-RxMoya.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E0AAB381EFFFFB30004DFED /* Build configuration list for PBXNativeTarget "RxMoya" */;
 			buildPhases = (
+				60B10087148F35A71EC80C7E /* [CP] Check Pods Manifest.lock */,
 				7E0AAB221EFFFFB20004DFED /* Sources */,
 				7E0AAB231EFFFFB20004DFED /* Frameworks */,
 				7E0AAB241EFFFFB20004DFED /* Resources */,
+				51C11CA4A783B8D5C324A13F /* [CP] Embed Pods Frameworks */,
+				3B7282B371643EB46B0FAE36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +204,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B7282B371643EB46B0FAE36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51C11CA4A783B8D5C324A13F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60B10087148F35A71EC80C7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E0AAB221EFFFFB20004DFED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +259,8 @@
 			files = (
 				7E0AAB2C1EFFFFB20004DFED /* ViewController.swift in Sources */,
 				7E0AAB2A1EFFFFB20004DFED /* AppDelegate.swift in Sources */,
+				7E0AAB411F0000BE0004DFED /* HomePageViewModel.swift in Sources */,
+				7E0AAB431F0000C90004DFED /* HomeApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +383,7 @@
 		};
 		7E0AAB391EFFFFB30004DFED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF4AFDC3C8E14AD7A1018E8 /* Pods-RxMoya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxMoya/Info.plist;
@@ -272,6 +396,7 @@
 		};
 		7E0AAB3A1EFFFFB30004DFED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99D9873E39EC305244EEADB /* Pods-RxMoya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RxMoya/Info.plist;
@@ -301,6 +426,7 @@
 				7E0AAB3A1EFFFFB30004DFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
