@@ -9,12 +9,7 @@
 import UIKit
 import Moya
 private let URL_HOME = "/shb_mobile_new_web/roomInfo/queryRoomInfoPage"
-enum Result {
-    case ok(message: String)
-    case empty
-    case failed(message: String)
-    
-}
+
 internal final class AccessTokenPlugin: PluginType {
     func willSend(_ request: RequestType, target: TargetType) {
         //请求前
