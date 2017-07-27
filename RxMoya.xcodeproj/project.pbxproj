@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		07C4BE0B4F8EA6E99C8AF536 /* Pods_RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388539EB79D6A759D85A4B08 /* Pods_RxMoya.framework */; };
 		7E0AAB2A1EFFFFB20004DFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB291EFFFFB20004DFED /* AppDelegate.swift */; };
-		7E0AAB2C1EFFFFB20004DFED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */; };
 		7E0AAB2F1EFFFFB20004DFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB2D1EFFFFB20004DFED /* Main.storyboard */; };
 		7E0AAB311EFFFFB20004DFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB301EFFFFB20004DFED /* Assets.xcassets */; };
 		7E0AAB341EFFFFB30004DFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0AAB321EFFFFB30004DFED /* LaunchScreen.storyboard */; };
 		7E0AAB411F0000BE0004DFED /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */; };
 		7E0AAB431F0000C90004DFED /* HomeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0AAB421F0000C90004DFED /* HomeApiService.swift */; };
+		7E844EA31F2A1C7900F6CA90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E844EA21F2A1C7900F6CA90 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		388539EB79D6A759D85A4B08 /* Pods_RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0AAB261EFFFFB20004DFED /* RxMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMoya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E0AAB291EFFFFB20004DFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		7E0AAB2E1EFFFFB20004DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E0AAB301EFFFFB20004DFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0AAB331EFFFFB30004DFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0AAB351EFFFFB30004DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		7E0AAB421F0000C90004DFED /* HomeApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeApiService.swift; sourceTree = "<group>"; };
+		7E844EA21F2A1C7900F6CA90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/susulo/GitHub/RxMoya/../../Desktop/ViewController.swift; sourceTree = "<absolute>"; };
 		BAF4AFDC3C8E14AD7A1018E8 /* Pods-RxMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.debug.xcconfig"; sourceTree = "<group>"; };
 		D99D9873E39EC305244EEADB /* Pods-RxMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +112,7 @@
 		7E0AAB3E1F0000AF0004DFED /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7E0AAB2B1EFFFFB20004DFED /* ViewController.swift */,
+				7E844EA21F2A1C7900F6CA90 /* ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E0AAB2C1EFFFFB20004DFED /* ViewController.swift in Sources */,
 				7E0AAB2A1EFFFFB20004DFED /* AppDelegate.swift in Sources */,
 				7E0AAB411F0000BE0004DFED /* HomePageViewModel.swift in Sources */,
+				7E844EA31F2A1C7900F6CA90 /* ViewController.swift in Sources */,
 				7E0AAB431F0000C90004DFED /* HomeApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

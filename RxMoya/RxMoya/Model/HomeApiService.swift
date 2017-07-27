@@ -8,15 +8,22 @@
 
 import UIKit
 import Moya
+import Result
 private let URL_HOME = "/shb_mobile_new_web/roomInfo/queryRoomInfoPage"
 
 internal final class AccessTokenPlugin: PluginType {
     func willSend(_ request: RequestType, target: TargetType) {
         //请求前
+        
+        
+        
+        
+        
     }
     
  
-    func didReceive(_ result: Result, target: TargetType) {
+    func didReceive(_ result: Result<Response, MoyaError>, target: TargetType) {
+      
         //请求后
     }
     
