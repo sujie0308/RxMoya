@@ -23,7 +23,7 @@ class ViewController: UIViewController {
        }, onDisposed: {
         
        }).addDisposableTo(disposeBag)
-        let data = UIImageJPEGRepresentation(UIImage.init(named: "")!, 0.5)
+        let data = UIImageJPEGRepresentation(UIImage.init(named: "icon")!, 0.5)
         HomeApiServi.request(.PictureSave(token: "96e79218965eb72c92a549dd5a330112", picture: data!)).subscribe(onNext: { (Response) in
             //let data = JSON(data: Response.data)  swift json
          

@@ -10,7 +10,11 @@ import UIKit
 import Moya
 import Result
 private let URL_HOME = "/shb_mobile_new_web/roomInfo/queryRoomInfoPage"
-
+private let requestTimeoutClosure = { (endpoint: Endpoint<HomeApiServicea>, done: @escaping MoyaProvider<HomeApiServicea>.RequestResultClosure) in
+    guard var request = endpoint.urlRequest else { return }
+    request.timeoutInterval = 10    //设置请求超时时间
+    done(.success(request))
+}
 internal final class AccessTokenPlugin: PluginType {
     func willSend(_ request: RequestType, target: TargetType) {
         //请求前
@@ -29,7 +33,7 @@ internal final class AccessTokenPlugin: PluginType {
     
     
 }
-let HomeApiServi = RxMoyaProvider<HomeApiServicea>(plugins: [AccessTokenPlugin()])
+let HomeApiServi = RxMoyaProvider<HomeApiServicea>(requestClosure:requestTimeoutClosure,plugins: [AccessTokenPlugin()])
 public enum HomeApiServicea {
     case getHome(city:String)//需要传的参数
     case PictureSave(token:String,picture:Data)
