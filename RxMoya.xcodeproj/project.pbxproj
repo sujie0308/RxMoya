@@ -27,7 +27,7 @@
 		7E0AAB351EFFFFB30004DFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E0AAB401F0000BE0004DFED /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		7E0AAB421F0000C90004DFED /* HomeApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeApiService.swift; sourceTree = "<group>"; };
-		7E844EA21F2A1C7900F6CA90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/susulo/Desktop/RxMoya/RxMoya/RxMoya/ViewController.swift; sourceTree = "<absolute>"; };
+		7E844EA21F2A1C7900F6CA90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/mac/Desktop/Git-Hub/RxMoya/RxMoya/RxMoya/ViewController/ViewController.swift"; sourceTree = "<absolute>"; };
 		BAF4AFDC3C8E14AD7A1018E8 /* Pods-RxMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.debug.xcconfig"; sourceTree = "<group>"; };
 		D99D9873E39EC305244EEADB /* Pods-RxMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMoya.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMoya/Pods-RxMoya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				7E0AAB3C1F0000AF0004DFED /* Model */,
-				7E0AAB3D1F0000AF0004DFED /* View */,
 				7E0AAB3E1F0000AF0004DFED /* ViewController */,
 				7E0AAB3F1F0000AF0004DFED /* ViewModel */,
 			);
@@ -100,13 +99,6 @@
 				7E0AAB421F0000C90004DFED /* HomeApiService.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		7E0AAB3D1F0000AF0004DFED /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		7E0AAB3E1F0000AF0004DFED /* ViewController */ = {
